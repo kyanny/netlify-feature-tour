@@ -2,17 +2,20 @@
   "name": "@example/starter",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "hoge": "node hoge.js"
   },
   "devDependencies": {
     "astro": "^0.20.7"
   },
   "dependencies": {
-    "jsdom": "^19.0.0",
-    "node-fetch": "^3.2.4"
+    "node-fetch": "^3.2.4",
+    "node-lcs": "^1.0.4",
+    "xmldom": "^0.6.0"
   }
 }
