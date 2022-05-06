@@ -1,3 +1,5 @@
+import fetch from "node-fetch";
+
 exports.handler = async function (event, context) {
     let body = "";
     fetch("https://anchor.fm/s/6cb3ad28/podcast/rss")
